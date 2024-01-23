@@ -64,15 +64,42 @@ label{
     margin-top: 10px;
 }
 
-.campo{
-    background-color:  #110A4E;
+div.campo {
+    background-color: #110A4E;
+    border: 4px solid #110A4E;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+    display: flex; 
+    align-items: center; 
 }
 
-div.campo > label{
+div.campo > label {
     display: none;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #324B54;
+    font-size: 1em;
+    width: calc(100% - 44px); 
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 10px; 
+}
+
+div.campo > input:focus-within{
+    background-color: white;
 }
 
 #formulario > p{
