@@ -14,7 +14,7 @@
 
     #login > #imagem{
         height: 100%;
-        width: 30%;
+        width: 40%;
         float: left;
     }
 
@@ -51,7 +51,7 @@
     }
 
     #formulario > p{
-        font-size: 1.2em;
+        font-size: 1.0em;
     }
     
 }

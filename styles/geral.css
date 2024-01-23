@@ -55,6 +55,10 @@ section > #formulario{
     padding: 10px;
 }
 
+label{
+    font-size: 0.9em;
+}
+
 #formulario > h1{
     text-align: center;
     margin-top: 10px;
