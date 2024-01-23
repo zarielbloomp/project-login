@@ -29,6 +29,9 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    transition-delay: 0.5s; 
+    transition:  width 0.5s, height 0.5s, backround-image, 0.5s;
+    transition-timing-function: ease;
 
     background-color: white;
     width: 250px;
@@ -44,6 +47,7 @@ section > #imagem{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    box-shadow: 3px 2px 5px solid black;
 }
 
 section > #formulario{
